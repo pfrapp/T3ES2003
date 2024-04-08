@@ -9,6 +9,7 @@
 import control as ctrl
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.integrate import solve_ivp
 
 # %% Plant
 
@@ -32,7 +33,7 @@ closed_loop = ctrl.interconnect([G, K, sum_junction], inputs='w', outputs='y')
 
 print(closed_loop)
 
-closed_loop = ctrl.tf(closed_loop)
+closed_loop_tf = ctrl.tf(closed_loop)
 
 # %% Sprungantworten
 
@@ -47,7 +48,7 @@ plt.show()
 
 
 
-t, y = ctrl.step_response(closed_loop)
+t, y = ctrl.step_response(closed_loop_tf)
 
 
 plt.figure('Closed loop step response')
@@ -57,3 +58,29 @@ plt.grid()
 plt.show()
 
 
+# %% Simulation
+
+def ode(t, x):
+    # Rechte Seite u
+    # Hier 1, da wir die Sprungantwort suchen
+    rhs = 1.0
+    return closed_loop.dynamics(t, x, rhs)
+
+x_0 = np.zeros((3,))
+sol = solve_ivp(ode, [0.0, 7.0], x_0)
+
+t2 = sol.t
+y2 = np.dot(closed_loop.C, sol.y).flatten()
+
+
+# %% Plot the solution
+
+plt.figure('Closed loop step response via integration with scipy')
+plt.clf()
+plt.plot(t2, y2, label='Solution via scipy')
+plt.plot(t, y, label='Solution via control toolbox', linestyle='--')
+plt.grid()
+plt.legend()
+plt.show()
+
+# %%

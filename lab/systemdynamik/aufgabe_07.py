@@ -84,3 +84,5 @@ ax.set(title='Sprungantworten')
 plt.show()
 
 
+
+# %%

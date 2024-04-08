@@ -89,7 +89,7 @@ G5 = series(G3, G4)
 # ausführen.
 # Standardmäßig wird eine negative Rückführung angenommen.
 G_feedback = 1
-G_gesamt = feedback(G5, G_feedback)
+G_gesamt = feedback(G5, G_feedback, -1)
 
 # Ergebnis ausgeben
 print(G_gesamt)

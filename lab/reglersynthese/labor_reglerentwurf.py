@@ -137,7 +137,7 @@ G_WY = feedback(series(K, G), H)
 G_ZY = feedback(G, series(H, K))
 
 # Folgeregelungsfehler bei W = Einheitssprung und Z = 0
-t_eval = linspace(0,10,1000)
+t_eval = linspace(0,30,3000)
 t, h = step_response(G_WY, T=t_eval)
 
 print(f'G_ZY = {G_ZY}')
@@ -159,14 +159,20 @@ plt.show()
 # w_urspruenglich --> (1/s) --> w_integriert
 # Sprung          --> (1/s) --> Rampe
 G_integrator = 1/s
-t, h = step_response(series(G_integrator, G_WY), T=t_eval)
+t, y = step_response(series(G_integrator, G_WY), T=t_eval)
 
 print(f'G_WY = {G_WY}')
 
+# Rampe als Fuehrungsgroesse
+w = t
+# Regelfehler (e = w - y)
+e = w - y
+
 plt.figure(4)
 plt.clf()
-plt.plot(t, h, label='y(t) (Regelgroesse)')
-plt.plot([0, 10], [0, 10], label='w(t) (Fuehrungsgroesse)')
+plt.plot(t, y, label='y(t) (Regelgroesse)')
+plt.plot(t, w, label='w(t) (Fuehrungsgroesse)')
+plt.plot(t, e, label='e(t) (Regelfehler)')
 plt.grid(True)
 plt.xlabel('t')
 plt.ylabel('w(t), y(t)')

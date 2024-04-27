@@ -6,9 +6,11 @@ import control as ctrl
 
 # %% Draw a heatmap
 
+# Raum R^2
 X, Y = np.mgrid[-5:5:0.02, -5:5:0.02]
 Z = np.zeros_like(X)
 
+# Raum C
 S = X + 1j*Y
 
 def G_fun(s):
@@ -25,6 +27,8 @@ G = G_fun(S)
 # Z = np.abs(G)
 Z = np.rad2deg(np.angle(G))
 
+plt.figure(1)
+plt.clf()
 plt.contourf(X, Y, Z, levels=64)
 plt.colorbar()
 plt.show()

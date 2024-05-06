@@ -49,15 +49,3 @@ ax.set(xlabel='x_1'); ax.set(ylabel='x_2')
 ax.set(xlim=(-5,5)); ax.set(ylim=(-5,5)); ax.set(zlim=(z_min - 20,z_max))
 plt.show()
 
-# %% Bode plot
-
-s = ctrl.tf('s')
-s1 = 2+3j
-s2 = 2-3j
-s3 = -3
-
-G = (s-s3)/((s-s1)*(s-s2))
-print(G)
-
-ctrl.bode(G)
-# %%

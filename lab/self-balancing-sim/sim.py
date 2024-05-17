@@ -53,7 +53,7 @@ class Parameters():
         #
         # Damping coefficient.
         #
-        self.d = 0.01
+        self.d = 0.00
         
         #
         # Abgeleitete Parameter
@@ -223,22 +223,8 @@ for idx, tau in enumerate(t):
 # %% Entwurf einer Regelung
 
 
-# PID controller
-K_P = 5.0
-K_I = 1.0
-K_D = 1.0
-
-theta_prev = 0.0
-theta_int = 0.0
-
 def control_law(x):
-    global theta_int
-    global theta_prev
-    # Evaluate the control law
-    theta, theta_dot = x[0], x[1]
-    theta_int = theta_int + 0.02 * (theta - theta_prev)
-    theta_prev = theta
-    u = K_P * theta + K_I * theta_int + K_D * theta_dot
+    # Auszufuellen...
     return u
 
 def ode_rhs_controlled(t, x):

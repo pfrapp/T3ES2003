@@ -10,6 +10,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
+import control as ctrl
 
 # %% Parameter
 
@@ -218,6 +219,75 @@ for idx, tau in enumerate(t):
     plt.show()
     plt.pause(0.01)
 
+# %% Linearisierung
+    
+system_dynamics = {}
+
+# This is a term used quite some time.
+tmp = (parameters.m1*parameters.a*parameters.R)**2 - parameters.J1_tilde*parameters.J2_tilde
+
+# Systemmatrix
+system_dynamics['A'] = 1.0/tmp * \
+    np.array([[0.0, tmp, 0.0, 0.0], \
+              [-parameters.g*parameters.J2_tilde*parameters.m1*parameters.a,
+                  parameters.d*(parameters.m1*parameters.a*parameters.R + parameters.J2_tilde),
+                  0.0,
+                  -parameters.d*(parameters.m1*parameters.a*parameters.R + parameters.J2_tilde)], \
+              [0.0, 0.0, 0.0, tmp], \
+              [parameters.g*parameters.m1**2*parameters.a**2*parameters.R,
+                  -parameters.d*(parameters.m1*parameters.a*parameters.R + parameters.J1_tilde),
+                  0.0,
+                  parameters.d*(parameters.m1*parameters.a*parameters.R + parameters.J1_tilde)]])
+
+# Steuermatrix
+system_dynamics['B'] = 1.0/tmp * \
+    np.array([0.0,\
+              parameters.m1*parameters.a*parameters.R + parameters.J2_tilde, \
+              0.0,\
+              -(parameters.m1*parameters.a*parameters.R + parameters.J1_tilde)]).reshape((4,1))
+
+# %% Transfer functions
+
+C_neigewinkel = np.array([-1,0,0,0]).reshape((1,4))
+C_radwinkel= np.array([0,0,1,0]).reshape((1,4))
+D=np.array([[0]])
+
+sys_neigewinkel = ctrl.ss(system_dynamics['A'], system_dynamics['B'], C_neigewinkel, D)
+sys_radwinkel= ctrl.ss(system_dynamics['A'], system_dynamics['B'], C_radwinkel, D)
+
+tf_neigewinkel = ctrl.tf(sys_neigewinkel)
+tf_radwinkel = ctrl.tf(sys_radwinkel)
+
+print('Uebertragungsfunktion Neigewinkel')
+print(tf_neigewinkel)
+
+print('Uebertragungsfunktion Radwinkel')
+print(tf_radwinkel)
+
+# %% Pol-Nullstellen Diagramm
+
+plt.figure('Pol-Nullstellen-Diagramm Neigewinkel')
+plt.clf()
+ctrl.pzmap(tf_neigewinkel)
+plt.show()
+
+plt.figure('Pol-Nullstellen-Diagramm Radwinkel')
+plt.clf()
+ctrl.pzmap(tf_radwinkel)
+plt.show()
+
+
+# %% WOK
+
+plt.figure('WOK Neigewinkel')
+plt.clf()
+ctrl.rlocus(tf_neigewinkel)
+plt.show()
+
+plt.figure('WOK Radwinkel')
+plt.clf()
+ctrl.rlocus(tf_radwinkel)
+plt.show()
 
 
 # %% Entwurf einer Regelung
@@ -225,6 +295,7 @@ for idx, tau in enumerate(t):
 
 def control_law(x):
     # Auszufuellen...
+    
     return u
 
 def ode_rhs_controlled(t, x):

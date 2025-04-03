@@ -6,6 +6,8 @@ Code exchange repository for T3ES2003 (originally for spring 2024, updated for s
 Fuer hybride bzw. remote Veranstaltungen nutzen wir ein
 [MS Teams Meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxZDIyOTUtZjE2OC00NThkLTg4OGQtYzgxYWE4NGM0NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22e932d96a-c5aa-4f37-a68f-3722071530aa%22%2c%22Oid%22%3a%2242d940c9-f005-4b58-9cd2-a24029b7ab6b%22%7d).
 
+Die Vorlesung wird gestreamt, falls mindestens eine Person um eine Remote Teilnahme bittet.
+
 | Datum      | Art der Veranstaltung | Link |
 |------------|-----------------------|------|
 | 14.03.2025 | Praesenz              | -    |
@@ -13,10 +15,10 @@ Fuer hybride bzw. remote Veranstaltungen nutzen wir ein
 | 21.03.2025 | Hybrid                | [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxZDIyOTUtZjE2OC00NThkLTg4OGQtYzgxYWE4NGM0NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22e932d96a-c5aa-4f37-a68f-3722071530aa%22%2c%22Oid%22%3a%2242d940c9-f005-4b58-9cd2-a24029b7ab6b%22%7d)     |
 | 28.03.2025 | Hybrid                | [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxZDIyOTUtZjE2OC00NThkLTg4OGQtYzgxYWE4NGM0NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22e932d96a-c5aa-4f37-a68f-3722071530aa%22%2c%22Oid%22%3a%2242d940c9-f005-4b58-9cd2-a24029b7ab6b%22%7d)    |
 | 31.03.2025 | Hybrid                   | [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxZDIyOTUtZjE2OC00NThkLTg4OGQtYzgxYWE4NGM0NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22e932d96a-c5aa-4f37-a68f-3722071530aa%22%2c%22Oid%22%3a%2242d940c9-f005-4b58-9cd2-a24029b7ab6b%22%7d)    |
-| 04.04.2025 | Voraussichtl. Praesenz   | -    |
-| 11.04.2025 | Voraussichtl. Praesenz   | -    |
-| 02.05.2025 | Voraussichtl. Praesenz   | -    |
-| 16.05.2025 | Voraussichtl. Praesenz   | -    |
+| 04.04.2025 | Voraussichtl. Praesenz, potentiell Hybrid   | [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxZDIyOTUtZjE2OC00NThkLTg4OGQtYzgxYWE4NGM0NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22e932d96a-c5aa-4f37-a68f-3722071530aa%22%2c%22Oid%22%3a%2242d940c9-f005-4b58-9cd2-a24029b7ab6b%22%7d)    |
+| 11.04.2025 | Voraussichtl. Praesenz, potentiell Hybrid   | [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxZDIyOTUtZjE2OC00NThkLTg4OGQtYzgxYWE4NGM0NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22e932d96a-c5aa-4f37-a68f-3722071530aa%22%2c%22Oid%22%3a%2242d940c9-f005-4b58-9cd2-a24029b7ab6b%22%7d)    |
+| 02.05.2025 | Voraussichtl. Praesenz, potentiell Hybrid   | [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxZDIyOTUtZjE2OC00NThkLTg4OGQtYzgxYWE4NGM0NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22e932d96a-c5aa-4f37-a68f-3722071530aa%22%2c%22Oid%22%3a%2242d940c9-f005-4b58-9cd2-a24029b7ab6b%22%7d)    |
+| 16.05.2025 | Voraussichtl. Praesenz, potentiell Hybrid   | [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2MxZDIyOTUtZjE2OC00NThkLTg4OGQtYzgxYWE4NGM0NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22e932d96a-c5aa-4f37-a68f-3722071530aa%22%2c%22Oid%22%3a%2242d940c9-f005-4b58-9cd2-a24029b7ab6b%22%7d)    |
 
 
 ## Setup eines virtuellen Python environments

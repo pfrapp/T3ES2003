@@ -19,6 +19,9 @@ from scipy.integrate import solve_ivp
 
 # Rechte Seite der Differenzengleichung
 def next_x(x_k, step_size):
+    # Dgl
+    # x_punkt = -x
+    # x_k plus 1 = -x*step_size + x = x*(1-step_size)
     x_k_plus_1 = (1.0 - step_size) * x_k
     return x_k_plus_1
 

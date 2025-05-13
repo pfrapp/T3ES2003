@@ -61,7 +61,8 @@ plt.show()
 
 from control import tf, series, parallel, feedback
 
-s = tf('s')
+# s = tf('s')
+s = ctrl.TransferFunction.s
 
 # Im ersten Schritt erstellen wir die Parallelschaltung
 # von '2' und '4/s' (wie in der Vorlesung).
@@ -102,7 +103,7 @@ print(G_gesamt)
 # Dieses stimmt mit dem Ergebnis aus der VL überein.
 
 #%% Aufgabe 05: Stabilität
-# Vgl. Aufgabe 5 aus der Uebung 3 zur Systemdynamik.
+# Vgl. Aufgabe 5 aus der Uebung 2 zur Systemdynamik.
 
 #%% Teilaufgabe 1: Untersuchung auf Stabilität
 

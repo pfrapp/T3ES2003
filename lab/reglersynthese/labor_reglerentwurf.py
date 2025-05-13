@@ -122,7 +122,7 @@ plt.show()
 
 
 #%% Labor Aufg. 3.3 -- Bleibende Regelabweichung
-# Entspricht im Wesentlichen der Aufg. 5.2 aus der Uebung 5
+# Entspricht im Wesentlichen der Aufg. 5.2 aus der Uebung 3
 #
 
 s = tf('s')

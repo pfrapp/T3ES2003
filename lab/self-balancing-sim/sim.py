@@ -248,7 +248,7 @@ system_dynamics['B'] = 1.0/tmp * \
 
 # %% Transfer functions
 
-C_neigewinkel = np.array([-1,0,0,0]).reshape((1,4))
+C_neigewinkel = np.array([1,0,0,0]).reshape((1,4))
 C_radwinkel= np.array([0,0,1,0]).reshape((1,4))
 D=np.array([[0]])
 

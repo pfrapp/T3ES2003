@@ -19,13 +19,13 @@ Grund: Windows hat per default kein Python, Linux/macOS hat ein Systempython.<br
 
 ```
 # Erstellung
-$ conda create -n t3es2003 python=3.9
+$ conda create -n t4es2003 python=3.9
 
 # Ueberpruefen ob es da ist
 $ conda env list
 
 # Aktivieren
-$ conda activate t3es2003
+$ conda activate t4es2003
 
 # Check ob der richtige Interpreter genutzt wird (nur Linux/macOS)
 $ which python3
@@ -35,17 +35,17 @@ $ which pip3
 $ conda deactivate
 
 # Loeschen der Umgebung
-$ conda env remove -n t3es2003
+$ conda env remove -n t4es2003
 ```
 
 Mit conda nicht notwendig, unter Linux/macOS bei Nutzung des Systempythons stark empfohlen:
 Erstellung einer virtuellen Umgebung.
 ```
 # Erstellung
-$ python3 -m venv ~/venv/t3es2003
+$ python3 -m venv ~/venv/t4es2003
 
 # Aktivierung
-$ . ~/venv/t3es2003/bin/activate
+$ . ~/venv/t4es2003/bin/activate
 
 # Check ob der richtige Interpreter genutzt wird (nur Linux/macOS)
 $ which python3
@@ -55,7 +55,7 @@ $ which pip3
 $ deactivate
 
 # Loeschen
-$ rm -r ~/venv/t3es2003
+$ rm -r ~/venv/t4es2003
 ```
 
 Fuer die Nutzung des Interpreters in VS Code empfiehlt es sich, `ipykernel` zu installieren.
@@ -75,4 +75,4 @@ In VS Code: Oeffnen der Command Palette via
 Cmd+Shift+P (macOS) bzw. Strg+Shift+P (Windows)
 
 Python: Select Interpreter<br />
-Dann den "t3es2003" Interpreter auswaehlen.
+Dann den "t4es2003" Interpreter auswaehlen.

@@ -80,8 +80,10 @@ Dazu zuerst das venv oder conda env aktivieren!
 # Installation des Pakets "ipykernel"
 $ pip3 install ipykernel
 # Installation der kernel specification fuer Jupyter in den user space
-$ python3 -m ipykernel install --user
+$ python3 -m ipykernel install --user (bei Linux)
 Installed kernelspec python3 in /Users/XXX/Library/Jupyter/kernels/python3
+$ python -m ipykernel install --user (bei Windows)
+Installed kernelspec python3 in C:\Users\XXX\AppData\Roaming\jupyter\kernels\python3
 ```
 
 Installation von numpy via `pip3 install numpy`

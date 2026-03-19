@@ -10,6 +10,21 @@ und jetzt T4ES2003 im Fruehjahr 2026.
 Fuer die Sprechstunde bzw. hybride oder remote Veranstaltungen nutzen wir ein
 [MS Teams Meeting](https://teams.microsoft.com/meet/33449900809047?p=QV0g1vrXS8uWx1j4bh).
 
+## Termine Sprechstunde
+
+Um das Selbststudium zu erleichtern biete ich eine virtuelle Sprechstunde an.
+
+Ich werde jeweils bis zu 5 min. nach Start der Sprechstunde im MS Teams Termin bleiben
+aber diesen wieder verlassen, falls bis dahin niemand weiteres beigetreten ist.
+
+Link zum Teams Meeting s. oben.
+Die Sprechstunde wird nicht aufgezeichnet.
+
+| Tag                  | Uhrzeit       | Dauer   |
+|----------------------|---------------|---------|
+| Mittwoch, 25.03.2026 | 19.00 Uhr     | 1h      |
+| Mittwoch, 01.04.2026 | 19.00 Uhr     | 1h      |
+
 
 ## Setup eines virtuellen Python environments
 

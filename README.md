@@ -10,6 +10,20 @@ und jetzt T4ES2003 im Fruehjahr 2026.
 Fuer die Sprechstunde bzw. hybride oder remote Veranstaltungen nutzen wir ein
 [MS Teams Meeting](https://teams.microsoft.com/meet/33449900809047?p=QV0g1vrXS8uWx1j4bh).
 
+## Videos der Vorlesung
+
+Neben den Videos in Moodle (wo die Dateigroesse limitiert ist)
+biete ich die Videos der Vorlesung in höherer Auflösung auf YouTube an.
+
+Interne bzw. organisatorische Inhalte sind herausgeschnitten.
+
+Pro 3h Block (ein Termin) gibt es zwei Teile zu je ca. 90 Minuten.
+
+| Termin               | Teil          | Link                                         |
+|----------------------|---------------|----------------------------------------------|
+| 1                    | 1             | [YouTube](https://youtu.be/GeIb4kHuG18)      |
+
+
 ## Termine Sprechstunde
 
 Um das Selbststudium zu erleichtern biete ich eine virtuelle Sprechstunde an.

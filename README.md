@@ -13,15 +13,29 @@ Fuer die Sprechstunde bzw. hybride oder remote Veranstaltungen nutzen wir ein
 ## Videos der Vorlesung
 
 Neben den Videos in Moodle (wo die Dateigroesse limitiert ist)
-biete ich die Videos der Vorlesung in höherer Auflösung auf YouTube an.
+biete ich die Videos der Vorlesung in höherer Auflösung und mit Zeitstempeln
+auf [YouTube](https://www.youtube.com/playlist?list=PLzjPCNvpl75TjOh5PryMuv_X21sxSX71V) an.
 
 Interne bzw. organisatorische Inhalte sind herausgeschnitten.
 
-Pro 3h Block (ein Termin) gibt es zwei Teile zu je ca. 90 Minuten.
+Pro 3h Präsenzblock Block (ein Termin) gibt es zwei Teile zu je ca. 90 Minuten.
+Bei den Videos zur Unterstützung des Selbststudiums ist die zeitliche Aufteilung entsprechend flexibler.
 
-| Termin               | Teil          | Link                                         |
-|----------------------|---------------|----------------------------------------------|
-| 1                    | 1             | [YouTube](https://youtu.be/GeIb4kHuG18)      |
+| Termin               | Teil          | Link                                         | Modus         |
+|----------------------|---------------|----------------------------------------------|---------------|
+| 1                    | 1             | [YouTube](https://youtu.be/GeIb4kHuG18)      | Präsenz       |
+| 1                    | 2             | [YouTube](https://youtu.be/L6NKCIVpR8o)      | Präsenz       |
+| 2                    | 1             | folgt                                        | Präsenz       |
+| 2                    | 2             | folgt                                        | Präsenz       |
+| 3                    | 1             | folgt                                        | Präsenz       |
+| 3                    | 2             | folgt                                        | Präsenz       |
+| 4                    | 1             | folgt                                        | Präsenz       |
+| 4                    | 2             | folgt                                        | Präsenz       |
+| 5                    | 1             | folgt                                        | Präsenz       |
+| 5                    | 2             | folgt                                        | Präsenz       |
+| 6                    | 1             | folgt                                        | Präsenz       |
+| 6                    | 2             | folgt                                        | Präsenz       |
+| 7                    |               | [YouTube](https://youtu.be/2kCm9ZS496Q)      | Selbststudium |
 
 
 ## Termine Sprechstunde
@@ -34,10 +48,10 @@ aber diesen wieder verlassen, falls bis dahin niemand weiteres beigetreten ist.
 Link zum Teams Meeting s. oben.
 Die Sprechstunde wird nicht aufgezeichnet.
 
-| Tag                  | Uhrzeit       | Dauer   |
-|----------------------|---------------|---------|
-| Mittwoch, 25.03.2026 | 19.00 Uhr     | 1h      |
-| Mittwoch, 01.04.2026 | 19.00 Uhr     | 1h      |
+| Tag                  | Uhrzeit       | Dauer   | Hinweis          |
+|----------------------|---------------|---------|------------------|
+| Mittwoch, 25.03.2026 | 19.00 Uhr     | 1h      | Keine Teilnehmer |
+| Mittwoch, 01.04.2026 | 19.00 Uhr     | 1h      |                  |
 
 
 ## Setup eines virtuellen Python environments

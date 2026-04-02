@@ -25,8 +25,8 @@ Bei den Videos zur Unterstützung des Selbststudiums ist die zeitliche Aufteilun
 |----------------------|---------------|----------------------------------------------|---------------|
 | 1                    | 1             | [YouTube](https://youtu.be/GeIb4kHuG18)      | Präsenz       |
 | 1                    | 2             | [YouTube](https://youtu.be/L6NKCIVpR8o)      | Präsenz       |
-| 2                    | 1             | folgt                                        | Präsenz       |
-| 2                    | 2             | folgt                                        | Präsenz       |
+| 2                    | 1             | [YouTube](https://youtu.be/0y4cJrwJsVU)      | Präsenz       |
+| 2                    | 2             | [YouTube](https://youtu.be/S1zgmTc664E)      | Präsenz       |
 | 3                    | 1             | folgt                                        | Präsenz       |
 | 3                    | 2             | folgt                                        | Präsenz       |
 | 4                    | 1             | folgt                                        | Präsenz       |
@@ -36,6 +36,8 @@ Bei den Videos zur Unterstützung des Selbststudiums ist die zeitliche Aufteilun
 | 6                    | 1             | folgt                                        | Präsenz       |
 | 6                    | 2             | folgt                                        | Präsenz       |
 | 7                    |               | [YouTube](https://youtu.be/2kCm9ZS496Q)      | Selbststudium |
+| 8                    |               | [YouTube](https://youtu.be/KaVHyCiwq4I)      | Selbststudium |
+| 9                    |               | [YouTube](https://youtu.be/omUuIi56-Qo)      | Selbststudium |
 
 
 ## Termine Sprechstunde
@@ -48,10 +50,12 @@ aber diesen wieder verlassen, falls bis dahin niemand weiteres beigetreten ist.
 Link zum Teams Meeting s. oben.
 Die Sprechstunde wird nicht aufgezeichnet.
 
-| Tag                  | Uhrzeit       | Dauer   | Hinweis          |
-|----------------------|---------------|---------|------------------|
-| Mittwoch, 25.03.2026 | 19.00 Uhr     | 1h      | Keine Teilnehmer |
-| Mittwoch, 01.04.2026 | 19.00 Uhr     | 1h      |                  |
+Bitte melden falls Bedarf an weiteren Sprechstunden besteht.
+
+| Tag                  | Uhrzeit       | Dauer   | Hinweis             |
+|----------------------|---------------|---------|---------------------|
+| Mittwoch, 25.03.2026 | 19.00 Uhr     | 1h      | Keine Teilnehmer    |
+| Mittwoch, 01.04.2026 | 19.00 Uhr     | 1h      | Fiel aus            |
 
 
 ## Setup eines virtuellen Python environments

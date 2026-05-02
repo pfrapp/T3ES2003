@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # Philipp Rapp
-# fuer Veranstaltung T3ES2003 "Regelungstechnik"
+# fuer Veranstaltung T3ES2003 und T4ES2003 "Regelungstechnik", 2024-2026
 # Labor 02: Systemdynamik
 #
 

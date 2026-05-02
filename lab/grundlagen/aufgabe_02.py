@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 #
 # Philipp Rapp
-# fuer Veranstaltung T3ES2003 Regelungstechnik, 2024
+# fuer Veranstaltung T3ES2003 Regelungstechnik, 2024, 2025
+# und T4ES2003, Regelungstechnik, 2026
 # Labor 01: Grundlagen Laboruebung
 #
 

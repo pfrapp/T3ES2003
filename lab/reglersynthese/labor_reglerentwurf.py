@@ -7,7 +7,7 @@
 
 #%% Pakete
 
-from control import tf, step_response, feedback, series, pole, pzmap
+from control import tf, step_response, feedback, series, poles, pzmap
 import matplotlib.pyplot as plt
 from numpy import linspace
 
@@ -72,7 +72,7 @@ GK = series(K, G)
 
 # Pole ausgeben: Man sieht: Der Pol bei a = 1.0 besteht weiterhin.
 print('Pole der offenen Steuerkette:')
-print(pole(GK))
+print(poles(GK))
 
 t_eval = linspace(0,100,1000)
 t, h = step_response(GK, T=t_eval)
@@ -106,7 +106,7 @@ GK = series(K, G)
 G_cl = feedback(GK, tf([1],[1]))
 
 print('Pole des geschlossenen Kreises:')
-print(pole(G_cl))
+print(poles(G_cl))
 
 
 t_eval = linspace(0,100,1000)

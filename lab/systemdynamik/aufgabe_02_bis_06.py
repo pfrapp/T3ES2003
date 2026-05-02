@@ -125,7 +125,7 @@ for idx, ue_funktion in enumerate(uebertragungs_funktionen):
     # Erstellung der Uebertragungsfunktion
     G = ctrl.tf(ue_funktion['zaehler'], ue_funktion['nenner'])
     # Berechnung der Pole der Uebertragungsfunktion
-    poles = ctrl.pole(G)
+    poles = ctrl.poles(G)
     # Ausgabe der Pole
     print(f'Die Pole der Uebertragungsfunktion G_{idx+1}(s)=\n{G}\nsind')
     print(poles)
@@ -154,7 +154,7 @@ for idx, ue_funktion in enumerate(uebertragungs_funktionen):
 
 G1 = ctrl.tf([1], [1,1,1])
 # Pole ohne Rueckfuehrung
-poles_without_feedback = ctrl.pole(G1)
+poles_without_feedback = ctrl.poles(G1)
 print(f'Pole der Strecke (ohne Rueckfuehrung): {poles_without_feedback}')
 if all(real(poles_without_feedback) < 0.0):
     print('Die Strecke G1 ist stabil.')
@@ -162,14 +162,14 @@ if all(real(poles_without_feedback) < 0.0):
 # Mit Rueckfuehrung: Variante 1
 G2 = ctrl.tf([5] ,[1, 1])
 G_feedback = ctrl.feedback(G1, G2)
-poles_with_feedback_variant_1 = ctrl.pole(G_feedback)
+poles_with_feedback_variant_1 = ctrl.poles(G_feedback)
 print(f'Pole des Gesamtsystems mit Rueckfuehrung (Variante 1): {poles_with_feedback_variant_1}')
 # --> Das System ist instabil.
 
 # Mit Rueckfuehrung: Variante 2
 G2 = ctrl.tf([5] ,[5, 1])
 G_feedback = ctrl.feedback(G1, G2)
-poles_with_feedback_variant_2 = ctrl.pole(G_feedback)
+poles_with_feedback_variant_2 = ctrl.poles(G_feedback)
 print(f'Pole des Gesamtsystems mit Rueckfuehrung (Variante 2): {poles_with_feedback_variant_2}')
 # --> Das System ist stabil.
 
@@ -216,7 +216,7 @@ for idx, ue_funktion in enumerate(uebertragungs_funktionen):
     plt.title(f'Pol-Nullstellendiagramm fuer G_{idx+1}(s)')
     # Ueberpruefung auf Stabilitaet.
     # Zuerst erfolgt die Berechnung der Pole.
-    poles = ctrl.pole(G)
+    poles = ctrl.poles(G)
     print(f'Pole: {poles}\n')
     # Alle Pole in der offenen linken Halbebene --> stabil.
     # Ein Pole in der rechten Halbebene --> instabil.
@@ -244,7 +244,7 @@ t_eval = linspace(0,20,1000)
 
 for idx, ue_funktion in enumerate(uebertragungs_funktionen):
     G = ctrl.tf(ue_funktion['zaehler'], ue_funktion['nenner'])
-    poles = ctrl.pole(G)
+    poles = ctrl.poles(G)
     fig = plt.figure(idx+1)
     plt.clf()
     # Pol-Nullstellen-Diagramm (nur Pole hier)
@@ -286,7 +286,7 @@ t_eval = linspace(0,20,1000)
 
 for idx, ue_funktion in enumerate(uebertragungs_funktionen):
     G = ctrl.tf(ue_funktion['zaehler'], ue_funktion['nenner'])
-    poles = ctrl.pole(G)
+    poles = ctrl.poles(G)
     fig = plt.figure(idx+1)
     plt.clf()
     # Pol-Nullstellen-Diagramm (nur Pole hier)

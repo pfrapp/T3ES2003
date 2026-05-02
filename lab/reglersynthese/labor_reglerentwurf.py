@@ -1,7 +1,7 @@
 #%% Labor 3: Reglersynthese
 #
 # Philipp Rapp
-# fuer Veranstaltung Regelungstechnik, 2024
+# fuer Veranstaltung Regelungstechnik, 2024-2026
 #
 
 

@@ -21,23 +21,31 @@ Interne bzw. organisatorische Inhalte sind herausgeschnitten.
 Pro 3h Präsenzblock Block (ein Termin) gibt es zwei Teile zu je ca. 90 Minuten.
 Bei den Videos zur Unterstützung des Selbststudiums ist die zeitliche Aufteilung entsprechend flexibler.
 
-| Termin               | Teil          | Link                                         | Modus         |
-|----------------------|---------------|----------------------------------------------|---------------|
-| 1                    | 1             | [YouTube](https://youtu.be/GeIb4kHuG18)      | Präsenz       |
-| 1                    | 2             | [YouTube](https://youtu.be/L6NKCIVpR8o)      | Präsenz       |
-| 2                    | 1             | [YouTube](https://youtu.be/0y4cJrwJsVU)      | Präsenz       |
-| 2                    | 2             | [YouTube](https://youtu.be/S1zgmTc664E)      | Präsenz       |
-| 3                    | 1             | folgt                                        | Präsenz       |
-| 3                    | 2             | folgt                                        | Präsenz       |
-| 4                    | 1             | folgt                                        | Präsenz       |
-| 4                    | 2             | folgt                                        | Präsenz       |
-| 5                    | 1             | folgt                                        | Präsenz       |
-| 5                    | 2             | folgt                                        | Präsenz       |
-| 6                    | 1             | folgt                                        | Präsenz       |
-| 6                    | 2             | folgt                                        | Präsenz       |
-| 7                    |               | [YouTube](https://youtu.be/2kCm9ZS496Q)      | Selbststudium |
-| 8                    |               | [YouTube](https://youtu.be/KaVHyCiwq4I)      | Selbststudium |
-| 9                    |               | [YouTube](https://youtu.be/omUuIi56-Qo)      | Selbststudium |
+| Termin               | Teil          | Link                                                         | Modus         |
+|----------------------|---------------|--------------------------------------------------------------|---------------|
+| 1                    | 1             | [YouTube](https://youtu.be/GeIb4kHuG18)                      | Präsenz       |
+| 1                    | 2             | [YouTube](https://youtu.be/L6NKCIVpR8o)                      | Präsenz       |
+| 2                    | 1             | [YouTube](https://youtu.be/0y4cJrwJsVU)                      | Präsenz       |
+| 2                    | 2             | [YouTube](https://youtu.be/S1zgmTc664E)                      | Präsenz       |
+| 3                    | 1             | [YouTube](https://youtu.be/FlagBYN6fok?si=LJRMNdNKre3E_516)  | Präsenz       |
+| 3                    | 2             | [YouTube](https://youtu.be/aMOYNiYkEaw?si=o8RUGv0dzHSzfYXk)  | Präsenz       |
+| 4                    | 1             | folgt                                                        | Präsenz       |
+| 4                    | 2             | folgt                                                        | Präsenz       |
+| 5                    | 1             | folgt                                                        | Präsenz       |
+| 5                    | 2             | folgt                                                        | Präsenz       |
+| 6                    | 1             | folgt                                                        | Präsenz       |
+| 6                    | 2             | folgt                                                        | Präsenz       |
+| 7                    |               | [YouTube](https://youtu.be/2kCm9ZS496Q)                      | Selbststudium |
+| 8                    |               | [YouTube](https://youtu.be/KaVHyCiwq4I)                      | Selbststudium |
+| 9                    |               | [YouTube](https://youtu.be/omUuIi56-Qo)                      | Selbststudium |
+| 10                   |               | [YouTube](https://youtu.be/T140Z-xLeXg?si=j730CNqf8sk3AF40)  | Selbststudium |
+| 11                   |               | folgt                                                        | Präsenz       |
+| 12                   |               | folgt                                                        | Präsenz       |
+| 13                   |               | folgt                                                        | Präsenz       |
+| 14                   |               | folgt                                                        | Präsenz       |
+| 15                   |               | folgt                                                        | Präsenz       |
+| 16                   |               | folgt                                                        | Präsenz       |
+
 
 
 ## Termine Sprechstunde
